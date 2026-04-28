@@ -96,7 +96,6 @@ fn main() {
     let lines = stdin.lines().filter_map(Result::ok);
 
     for line in lines {
-        eprintln!("{:?}", line);
         let parts = line
             .trim()
             .split(args.separator)
