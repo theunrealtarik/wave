@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BIN_NAME="pulse"
+BIN_NAME="wave"
 TARGET="target/release/$BIN_NAME"
 DEST="/usr/local/bin/$BIN_NAME"
 
